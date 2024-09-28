@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Pulspace - Revolutionizing Building Evaluations with AI</title>
-  <meta content="Pulspace offers AI-powered solutions for building evaluations, focusing on user feedback, research tools, and a design database." name="description">
-  <meta content="Pulspace, AI, Building Evaluation, User Feedback, Research Tool, Design Database" name="keywords">
+  <meta content="Pulspace offers AI-powered solutions for building evaluations, focusing on user feedback, research engine, and a design database." name="description">
+  <meta content="Pulspace, AI, Building Evaluation, User Feedback, Research Engine, Design Database" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,6 +27,25 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Custom Font Size -->
+  <style>
+    body {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.75em;
+    }
+    p {
+      font-size: 1.125em;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -45,7 +64,7 @@
           <li><a href="#hero">Home</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#subscribe">Subscribe</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -94,8 +113,8 @@
           <div class="col-lg-4">
             <div class="feature-box">
               <div class="icon"><i class="bi bi-search"></i></div>
-              <h3>Research Tool</h3>
-              <p>Help researchers extract valuable information from user input with advanced AI analysis tools.</p>
+              <h3>Research Engine</h3>
+              <p>Extract relevant information from videos and images taken on-site using multimodal AI.</p>
             </div>
           </div>
 
@@ -103,7 +122,7 @@
             <div class="feature-box">
               <div class="icon"><i class="bi bi-database"></i></div>
               <h3>Design Database</h3>
-              <p>Store extracted information in a structured database for easy querying and future design applications.</p>
+              <p>Find answers about design using natural language with real-world data.</p>
             </div>
           </div>
 
@@ -122,8 +141,8 @@
             <p>We are dedicated to revolutionizing the architecture industry by providing AI-powered, human-centered tools that streamline building evaluations and foster design innovation.</p>
             <ul>
               <li><i class="bi bi-check-circle"></i> Enhance data collection with interactive chatbots.</li>
-              <li><i class="bi bi-check-circle"></i> Empower researchers with advanced analysis tools.</li>
-              <li><i class="bi bi-check-circle"></i> Build a comprehensive design database for future projects.</li>
+              <li><i class="bi bi-check-circle"></i> Empower researchers with advanced AI analysis of on-site videos and images.</li>
+              <li><i class="bi bi-check-circle"></i> Build a comprehensive design database accessible via natural language queries.</li>
             </ul>
           </div>
           <div class="col-lg-6 about-img" data-aos="fade-up" data-aos-delay="200">
@@ -135,63 +154,36 @@
     </section>
     <!-- End About Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Subscribe Section -->
+    <section id="subscribe" class="subscribe section">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
-          <p>Get in touch to learn how Pulspace can transform your building evaluations.</p>
+          <h2>Stay Updated</h2>
+          <p>Enter your email to receive the latest updates from Pulspace.</p>
         </div>
 
-        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-6">
-            <div class="info">
-              <h4>Address</h4>
-              <p>123 Pulspace Avenue, City, Country</p>
+            <form action="forms/subscribe.php" method="post" class="php-email-form">
+              <div class="row gy-4 justify-content-center">
 
-              <h4>Email</h4>
-              <p>info@pulspace.com</p>
-
-              <h4>Phone</h4>
-              <p>+123 456 7890</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
+                <div class="col-md-12">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                 </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
                 <div class="col-md-12 text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Subscribe</button>
                 </div>
 
               </div>
             </form>
           </div>
-
         </div>
 
       </div>
     </section>
-    <!-- End Contact Section -->
+    <!-- End Subscribe Section -->
 
   </main>
 
